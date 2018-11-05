@@ -15,7 +15,7 @@ describe('Users', () => {
       name: 'david',
     }
 
-    it('responds with newly created users', async () => {
+    it('responds with newly created user', async () => {
       const res = await request(app)
         .post('/users')
         .send({
